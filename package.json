@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Компилируемый язык на JavaScript",
   "main": "src/index.js",
-  "private": "false",
   "bin": {
     "peoplescript": "./src/index.js"
   },
