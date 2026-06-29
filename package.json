@@ -21,8 +21,5 @@
     "webpack": "^5.88.0",
     "webpack-cli": "^5.1.4"
   },
-  "dependencies": {},
-  "publishConfig": {
-    "@ThisPeople:registry": "https://npm.pkg.github.com"
-  }
+  "dependencies": {}
 }
