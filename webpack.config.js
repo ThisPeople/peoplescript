@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'peoplescript.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: __dirname,
         library: {
             name: 'PeopleScript',
             type: 'umd',

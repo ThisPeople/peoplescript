@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/browser.js', // Создадим отдельный entry для браузера
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: __dirname,
         library: {
             name: 'PeopleScript',
             type: 'umd',
