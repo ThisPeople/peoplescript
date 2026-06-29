@@ -1,5 +1,5 @@
 {
-  "name": "@ThisPeople/PeopleScript",
+  "name": "PeopleScript",
   "version": "1.0.0",
   "description": "Компилируемый язык на JavaScript",
   "main": "src/index.js",
