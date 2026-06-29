@@ -1,10 +1,10 @@
 {
   "name": "peoplescript",
-  "version": "1.0.1-fix-npm",
+  "version": "1.0.1",
   "description": "Компилируемый язык на JavaScript",
   "main": "src/index.js",
   "bin": {
-    "peoplescript": "./src/index.js"
+    "peoplescript": "peoplescript.js"
   },
   "scripts": {
     "build": "npm run build:node && npm run build:browser",
@@ -14,7 +14,12 @@
     "compile": "node src/index.js",
     "test": "node test.js"
   },
-  "keywords": ["compiler", "javascript", "language", "russian"],
+  "keywords": [
+    "compiler",
+    "javascript",
+    "language",
+    "russian"
+  ],
   "author": "This People Studio",
   "license": "MIT",
   "devDependencies": {
